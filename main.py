@@ -15,7 +15,7 @@ from tavily import TavilyClient
 
 # Set up your API keys
 load_dotenv()
-GOOGLE_API_KEY ="AIzaSyDZrHfgDjywU7w44lUh-H8znoBg4kjI4W0"
+GOOGLE_API_KEY =""
 tavily_api_key = os.getenv("TAVILY_API_KEY")
 
 # Initialize LLM and Tavily search
